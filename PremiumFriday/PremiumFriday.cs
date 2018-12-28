@@ -27,8 +27,13 @@ namespace PremiumFriday
     {
         public static bool CheckPremiumFriday(DateTime date)
         {
-            if (date.Year < 2017) return false;
-
+            var firstPremiumFriday = new DateTime(2017,2,24);
+            
+            if (date < firstPremiumFriday)
+            {
+                return false;
+            }
+                        
             if (date.DayOfWeek != DayOfWeek.Friday) return false;
 
             var currentMonth = date.Month;

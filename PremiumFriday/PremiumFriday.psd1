@@ -1,6 +1,6 @@
 @{
     RootModule = 'PremiumFriday.dll'
-    ModuleVersion = '1.0.0.0'
+    ModuleVersion = '1.0.1.0'
     FunctionsToExport = @(
     'Get-NextPremiumfriday'
     'Test-PremiumFriday'
@@ -18,7 +18,7 @@
         PSData = @{
             ProjectUri = 'https://github.com/hsaito/PremiumFriday/'
             LicenseUri = 'https://github.com/hsaito/PremiumFriday/blob/master/LICENSE'
-            ReleaseNotes = ''
+            ReleaseNotes = 'Resolved the issue that resulted 2017-01-27 was shown as a Premium Friday. (While it started 2017-02-24.)'
         }
     }
 }
