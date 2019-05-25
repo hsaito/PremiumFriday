@@ -9,9 +9,9 @@
         <PackageId>PremiumFriday</PackageId>
         <Description>Premium Friday Validation PowerShell Module.</Description>
         <Copyright>Copyright (c) 2018 Hideki Saito</Copyright>
-        <Version>1.0.2.0</Version>
-        <AssemblyVersion>1.0.2.0</AssemblyVersion>
-        <FileVersion>1.0.2.0</FileVersion>
+        <Version>1.0.2.1</Version>
+        <AssemblyVersion>1.0.2.1</AssemblyVersion>
+        <FileVersion>1.0.2.1</FileVersion>
         <TargetFramework>netcoreapp2.2</TargetFramework>
     </PropertyGroup>
 
