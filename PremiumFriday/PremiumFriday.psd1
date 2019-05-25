@@ -1,6 +1,6 @@
 @{
     RootModule = 'PremiumFriday.dll'
-    ModuleVersion = '1.0.1.0'
+    ModuleVersion = '1.0.2.0'
     FunctionsToExport = @(
     'Get-NextPremiumfriday'
     'Test-PremiumFriday'
