@@ -1,6 +1,6 @@
 @{
     RootModule = 'PremiumFriday.dll'
-    ModuleVersion = '1.0.2.0'
+    ModuleVersion = '1.0.2.1'
     FunctionsToExport = @(
     'Get-NextPremiumfriday'
     'Test-PremiumFriday'
@@ -13,12 +13,11 @@
     Description = 'Premium Friday Validation Module for PowerShell'
     PowerShellVersion = '6.0'
     CompatiblePSEditions = 'Core'
-    Copyright = '(c) 2018 Hideki Saito. All rights reserved.'
+    Copyright = '(c) 2019 Hideki Saito. All rights reserved.'
     PrivateData = @{
         PSData = @{
             ProjectUri = 'https://github.com/hsaito/PremiumFriday/'
-            LicenseUri = 'https://github.com/hsaito/PremiumFriday/blob/master/LICENSE'
-            ReleaseNotes = 'Resolved the issue that resulted 2017-01-27 was shown as a Premium Friday. (While it started 2017-02-24.)'
+            ReleaseNotes = ''
         }
     }
 }
