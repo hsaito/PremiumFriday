@@ -1,8 +1,11 @@
 ﻿using System;
 using System.Diagnostics.CodeAnalysis;
 using System.Management.Automation;
+using System.Runtime.CompilerServices;
 
 // ReSharper disable UnusedMember.Global
+
+[assembly: InternalsVisibleTo("PremiumFriday.Tests")]
 
 namespace PremiumFriday
 {
