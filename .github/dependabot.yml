@@ -7,9 +7,10 @@ version: 2
 updates:
   - package-ecosystem: "nuget" # See documentation for possible values
     directory: "/" # Location of package manifests
-    target-branch: "develop"
+    target-branch: "main"
     schedule:
       interval: "daily"
     assignees:
       - "hsaito"
-
+    cooldown:
+      default-days: 7
